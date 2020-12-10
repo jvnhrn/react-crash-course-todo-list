@@ -6,9 +6,8 @@ export class TodoItem extends Component {
         return {
             textDecoration: this.props.todo.completed ? 'line-through' : 'none'
         }
-       }
     }
-
+    
     render() {
         return (
             <div style={this.getStyle()}>
